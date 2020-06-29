@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Framework 7</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css">
+	
+</head>
+
+<body>
+	
+	<div id="app">
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+		  <section class="panel panel-left panel-cover">
+			  <div class="block">
+				  <div class="row">
+					  <article class="col-20">
+						  <span class="material-icons">account_circle</span>
+					  </article>
+					  <article class="col-80">
+						  Estelle Leyor<br>
+						  <span class="letra-verde">estelle@gmail.com</span>
+					  </article>
+				  </div>
+			  </div>
+			  <div class="list">
+				  <ul class="list-menu">
+					  <li>
+						  <a href="/about/" class="item-link item-content panel-close">
+							<div class="item-media">
+							  <span class="material-icons">help</span>
+							</div>
+							<div class="item-inner">
+							  About
+							</div>
+						  </a>
+						</li>
+					  <li>
+						  <a href="/about/" class="item-link item-content panel-close">
+							<div class="item-media">
+							  <span class="material-icons">help</span>
+							</div>
+							<div class="item-inner">
+							  About
+							</div>
+						  </a>
+						</li>
+					  <li>
+						  <a href="/about/" class="item-link item-content panel-close">
+							<div class="item-media">
+							  <span class="material-icons">help</span>
+							</div>
+							<div class="item-inner">
+							  About
+							</div>
+						  </a>
+						</li>
+				  </ul>
+			  </div>
+		  </section>
+		  
+		  
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+				<div class="left">
+					<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+				</div>
+              <div class="title">Awesome App</div>
+            </div>
+          </nav>
+
+        
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+			  <h2 class="block-title">
+				Título en Framework7
+			  </h2>
+			  <div class="block block-strong">
+			  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi odit exercitationem ex labore ad nam nisi dolor eos? Eos nemo nobis repellat, enim libero laborum culpa dolore. Quia rerum quidem quae reprehenderit fugiat nesciunt, est expedita, perferendis quas voluptatibus doloribus delectus amet velit vel sed. Provident, blanditiis sint nesciunt distinctio!
+			  </div>
+			  
+			  <h2 class="block-title">
+				  Diseño Columnas
+			  </h2>
+			  <div class="block">
+				  <div class="row">
+					  <article class="col-30 tooltip-init" data-tooltip="Ayuda columna 30">
+						  Información columna <span class="badge color-red">#1</span>
+					  </article>
+					  <article class="col-30">
+						  Información columna <span class="badge color-green">#2</span>
+					  </article>
+					  <article class="col-40">
+						  Información columna <span class="badge color-blue">#3</span>
+					  </article>
+				  </div>
+			  </div>
+			  
+			  <h2 class="block-title">Botones</h2>
+			  <div class="block">
+				  <a href="#" id="btnAlerta"class="button button-fill button-round button-small">Botón de Alerta</a>
+			  </div>
+			  <div class="block">
+				  <div class="row">
+				  <a href="/about/" class="button button-fill button-round button-small col">About F7</a>
+				  <a href="#" class="button button-fill button-round button-small col">Botón de Alerta</a>
+					</div>
+			  </div>
+			  
+          </article>
+        </section>
+		  
+      </div>
+    </div>
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
